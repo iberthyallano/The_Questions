@@ -1,3 +1,4 @@
+const diagonalPrincipalDaMatriz = require('../src/scripts/DiagonalPrincipalDaMatriz');
 
 test("Teste Exemplo", () => {
     let matriz = `3\n0\n4\n2`;
