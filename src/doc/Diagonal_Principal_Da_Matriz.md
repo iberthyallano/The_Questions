@@ -13,15 +13,15 @@ Entrada:
 - 2
 
 Saída:
-- Matrix(0x0)
+- Matriz(0x0)
   
-- Matrix(4x4)  
+- Matriz(4x4)  
   1 0 0 0  
   0 1 0 0  
   0 0 1 0  
   0 0 0 1
 
-- Matrix(2x2)  
+- Matriz(2x2)  
   1 0  
   0 1  
 
