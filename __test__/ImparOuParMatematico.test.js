@@ -1,3 +1,4 @@
+const imparOuParMatematico = require('../src/scripts/ImparOuParMatematico');
 
 test("Teste Exemplo", () => {
     expect(imparOuParMatematico(3)).toBe(`Impar`);
