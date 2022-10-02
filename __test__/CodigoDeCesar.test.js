@@ -1,4 +1,4 @@
-
+const codigoDeCesar = require('../src/scripts/CodigoDeCesar');
 
 test('Teste Exemplo', () => {    
     expect(
@@ -9,11 +9,11 @@ test('Teste Exemplo', () => {
 test('teste aleatorio 1', () => {
     expect(
         codigoDeCesar(4, "O sol e a lua")
-        ).toEqual("S vsp i e pze");
+        ).toEqual("S wsp i e pye");
 });
 
 test('teste aleatorio 2', () => {
     expect(
         codigoDeCesar(2, "Papai Noel entrega presentes")
-        ).toEqual("Rcrck pqgn gpvtgic rtgugpvgu");
+        ).toEqual("Rcrck Pqgn gpvtgic rtgugpvgu");
 });
