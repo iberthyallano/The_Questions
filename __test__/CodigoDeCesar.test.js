@@ -6,13 +6,13 @@ test('Teste Exemplo', () => {
         ).toEqual("D oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr");
 });
 
-test('teste aleatorio 1', () => {
+test('Teste Aleatorio 1', () => {
     expect(
         codigoDeCesar(4, "O sol e a lua")
         ).toEqual("S wsp i e pye");
 });
 
-test('teste aleatorio 2', () => {
+test('Teste Aleatorio 2', () => {
     expect(
         codigoDeCesar(2, "Papai Noel entrega presentes")
         ).toEqual("Rcrck Pqgn gpvtgic rtgugpvgu");
