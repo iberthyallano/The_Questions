@@ -1,3 +1,5 @@
+const escadaDeAsterisco = require('../src/scripts/EscadaDeAsterisco');
+
 test('Teste Exemplo', () => {
     expect(escadaDeAsterisco(6)).toEqual("     *\n    **\n   ***\n  ****\n *****\n******\n");
 });
