@@ -1,6 +1,5 @@
 const fibonacciArray = require('../src/scripts/FibonacciArray');
 
-
 test("Teste Exemplo", () => {
     let matriz = `3\n0\n4\n2`;
     expect(fibonacciArray(matriz)).toBe(`Fib(0) = 0\nFib(4) = 3\nFib(2) = 1\n`);

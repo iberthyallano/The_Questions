@@ -1,3 +1,4 @@
+
 function criaMatrix(dimencao){
     if(dimencao === 0){return "\n"}
 

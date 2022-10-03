@@ -1,3 +1,4 @@
+
 function imparOuParMatematico(num){
     let x1 = num/2;
     let x2 = num/2;

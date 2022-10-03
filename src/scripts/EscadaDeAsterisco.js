@@ -1,3 +1,4 @@
+
 function escadaDeAsterisco(num){
     let result = "";
     for (let i = 1, j = num; i <= num; i++, j--) {
