@@ -1,4 +1,4 @@
-
+const pedraPapelTesouraLagartoSpock = require('../src/scripts/PedraPapelTesouraLagartoSpock');
 
 test("Teste Exemplo", () => {
     let game = `3\npapel pedra\nlagarto tesoura\nSpock Spock`;
