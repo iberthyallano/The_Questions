@@ -1,3 +1,4 @@
+const fibonacciArray = require('../src/scripts/FibonacciArray');
 
 
 test("Teste Exemplo", () => {
