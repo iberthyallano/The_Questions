@@ -1,12 +1,13 @@
+const divisaoInteiraEntreDoisNumeros = require('../src/scripts/DivisaoInteiraEntreDoisNumeros');
 
 test("Teste Exemplo", () => {
-    expect(divisaoInteiraEntreDoisNumeros(20, 4)).toBe([5,0]);
+    expect(divisaoInteiraEntreDoisNumeros(20, 4)).toEqual([5,0]);
 });
 
 test("Teste Aleatorio 1", () => {
-    expect(divisaoInteiraEntreDoisNumeros(25, 10)).toBe([2,5]);
+    expect(divisaoInteiraEntreDoisNumeros(25, 10)).toEqual([2,5]);
 });
 
 test("Teste Aleatorio 2", () => {
-    expect(divisaoInteiraEntreDoisNumeros(257, 48)).toBe([5, 17]);
+    expect(divisaoInteiraEntreDoisNumeros(257, 48)).toEqual([5, 17]);
 });
