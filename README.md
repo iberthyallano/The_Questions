@@ -1,5 +1,5 @@
 <h1 align="center">
-  Questões De Provas
+  The Questions
 </h1>
 
 ### Sobre o projeto:
@@ -56,7 +56,7 @@ Modifique o arquivo package.json para adicionar o script de criação de documen
 1. Faça um clone :
 
 ```sh
-  $ git clone https://gitlab.com/iberthyallano/intern-challenge2.git
+  $ git clone https://github.com/iberthyallano/The_Questions.git
 ```
 
 2. Executando todos os testes:
