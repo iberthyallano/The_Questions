@@ -1,3 +1,5 @@
+const intersecao = require('../src/scripts/Intesercao');
+
 test("Teste Exemplo", () => {
     let entrada = ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"];
     expect(intersecao(entrada)).toStrictEqual("1,4,13");
