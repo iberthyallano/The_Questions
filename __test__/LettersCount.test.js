@@ -1,3 +1,4 @@
+const lettersCount = require('../src/scripts/LettersCount');
 
 test("Teste Exemplo", () => {
     let entrada = `4\nARARA A\nTORTA F\nURUGUAIANA UR\nPARALELEPIPEDO 1`;
