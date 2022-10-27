@@ -1,25 +1,25 @@
 
 function getTamanhoPalavra(palavra) {
     let tamanho = 0;
-    for(let i in palavra){
-        if(isNaN(palavra[i])){
-            tamanho++;
-        }
-    }
+
+    palavra.split('').map(letra => { if(isNaN(letra)){tamanho++;} });
+  
     return tamanho;
 }
 
 function palavraMaisLoga(frase){
-    let palavrasDaFrase = frase.split(" ");
-    let palavra = "", tamPlv = 0;
-    for(let i in palavrasDaFrase) { 
-        let auxTam = getTamanhoPalavra(palavrasDaFrase[i]);
+
+    let palavraFinal = "", tamPlv = 0;
+
+    frase.split(" ").map( palavra => {
+        let auxTam = getTamanhoPalavra(palavra);
         if(auxTam > tamPlv){
-            palavra = palavrasDaFrase[i];
+            palavraFinal = palavra;
             tamPlv = auxTam;
         }
-    }
-    return palavra; 
+    });
+
+    return palavraFinal; 
 }
 
 module.exports = palavraMaisLoga;
