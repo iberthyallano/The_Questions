@@ -1,4 +1,4 @@
-
+const maiorSubstringAlfabetica = require('../src/scripts/MaiorSubstringAlfabetica')
 
 test('Teste Exemplo', () => {    
     expect(
