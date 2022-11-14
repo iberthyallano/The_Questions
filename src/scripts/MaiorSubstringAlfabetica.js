@@ -1,13 +1,16 @@
-function maiorSubstringAlfabetica(texto){
+
+function maiorSubstringAlfabetica(text){
     let subs = [];
 
-    for(let i = 0; i < texto.length; i++){
-      subs.push(texto.substring(i, texto.length));
+    for(let i = 0; i < text.length; i++){
+      subs.push(text.substring(i, text.length));
     }
     
     subs.sort();
     
     return subs.pop();
+    
 }
 
-module.exports = maiorSubstringAlfabetica;
+module.exports = maiorSubstringAlfabetica; 
+

@@ -1,13 +1,19 @@
-const maiorSubstringAlfabetica = require('../src/scripts/MaiorSubstringAlfabetica');
+const maiorSubstringAlfabetica = require('../src/scripts/MaiorSubstringAlfabetica')
 
 test('Teste Exemplo', () => {    
-    expect( maiorSubstringAlfabetica("banana") ).toEqual("nana");
+    expect(
+        maiorSubstringAlfabetica("banana")
+        ).toEqual("nana");
 });
 
 test('Teste Aleatorio 1', () => {
-    expect( maiorSubstringAlfabetica("laranja") ).toEqual("ranja");
+    expect(
+        maiorSubstringAlfabetica("abacate")
+        ).toEqual("te");
 });
 
 test('Teste Aleatorio 2', () => {
-    expect( maiorSubstringAlfabetica("abacate") ).toEqual("te");
+    expect(
+        maiorSubstringAlfabetica("morango")
+        ).toEqual("rango");
 });
