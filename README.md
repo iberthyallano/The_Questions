@@ -20,8 +20,6 @@ Esses testes vieram de empresas como:
 O projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Jest](https://jestjs.io/pt-BR/)
-- [Sqlite3](https://www.sqlite.org/)
-- [Bluebird](http://bluebirdjs.com/docs/getting-started.html)
 
 <br>
 
@@ -86,5 +84,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 <h4 align="center">
-    Feito por <a href="https://www.linkedin.com/in/iberthy-allano/" target="_blank">Iberthy Allano</a>.
+    Feito por <a href="https://www.linkedin.com/in/iberthy-allano/" target="_blank">Iberthy Allano</a> & <a  href="https://www.linkedin.com/in/manoelvoliveira/" target="_blank">Manoel Oliveira</a>.
 </h4>

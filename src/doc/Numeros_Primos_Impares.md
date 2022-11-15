@@ -18,4 +18,4 @@ Saida:
 
 ENTRADA: Contém um número de valor N de números que será retornado.
 
-SAÍDA: String contendo os números impares solicitados.
+SAÍDA: Array contendo os números impares solicitados.
