@@ -2,7 +2,6 @@ function getAllSubs(palavra){
     let subs = [];
   
     for(i = 1; i < palavra.length; i++){
-  
       let aux = [];
       for(j = 0; j < palavra.length; j++){   
         aux.push(palavra.substring(j, j+i)); 
@@ -24,7 +23,7 @@ function getAllSubs(palavra){
     return (palavraA == palavraB);
   }
   
-  function TotalDeSubstringsAnagramas(palavra) {
+  function totalDeSubstringsAnagramas(palavra) {
     let substrings = getAllSubs(palavra);
     
     let total = 0;
@@ -42,4 +41,4 @@ function getAllSubs(palavra){
   
   
   
-  module.exports = TotalDeSubstringsAnagramas;
+  module.exports = totalDeSubstringsAnagramas;
