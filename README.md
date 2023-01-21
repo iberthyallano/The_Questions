@@ -4,11 +4,11 @@
 
 ### Sobre o projeto:
 
-Este projeto foi idealizado com o intuido de mostrar as questões de algumas seleções de emprego que já realizei.
+Este projeto foi idealizado com o intuito de mostrar as questões de algumas seleções de emprego que já realizei.
 Além disso, tem como objetivo ajudar iniciantes que estão querendo arrumar um emprego, pois são questões que podem cair em suas seleções, além de serem úteis para melhorar sua lógica de programação.
 
 Obs:
-Recomento que tentem resolver as [questões](./src/) antes de olharem suas resoluções.
+Recomendo que tentem resolver as [questões](./src/) antes de olharem suas resoluções.
 
 Esses testes vieram de empresas como:
 - [BTG Pactual](https://www.btgpactual.com/)
