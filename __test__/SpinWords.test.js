@@ -5,9 +5,9 @@ test("Teste Exemplo", () => {
 });
 
 test("Teste Aleatorio 1", () => {
-    expect(spinWords("This is a test")).toBe("This is a test");
+    expect(spinWords("Irei testar mais uma vez")).toBe("Irei ratset mais uma vez");
 });
 
 test("Teste Aleatorio 2", () => {
-    expect(spinWords("This is another test")).toBe("This is rehtona test");
+    expect(spinWords("Talvez tenham que testar mais uma vez")).toBe("zevlaT mahnet que ratset mais uma vez");
 });
