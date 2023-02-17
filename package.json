@@ -1,7 +1,7 @@
 {
   "name": "questions",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">\r   The Questions\r </h1>",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,10 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "node": "^18.12.0",
-    "sqlite3": "^5.1.1"
+    "node": "^18.14.0",
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
-    "jest": "^29.1.2"
-  }
+    "jest": "^29.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManoelVOliS/The_Questions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManoelVOliS/The_Questions/issues"
+  },
+  "homepage": "https://github.com/ManoelVOliS/The_Questions#readme"
 }
