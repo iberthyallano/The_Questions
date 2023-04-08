@@ -4,11 +4,11 @@
 
 ### Sobre o projeto:
 
-Este projeto foi idealizado com o intuito de mostrar as questões de algumas seleções de emprego que já realizei.
+Este projeto foi idealizado com o intuito de mostrar as questões de algumas seleções de emprego que já realizamos, bem como questões de olimpiadas de programação que achamos interessante.
 Além disso, tem como objetivo ajudar iniciantes que estão querendo arrumar um emprego, pois são questões que podem cair em suas seleções, além de serem úteis para melhorar sua lógica de programação.
 
 Obs:
-Recomendo que tentem resolver as [questões](./src/) antes de olharem suas resoluções.
+Recomendo que tentem resolver as [questões](./src/doc) antes de olharem suas resoluções.
 
 Esses testes vieram de empresas como:
 
@@ -19,19 +19,23 @@ Esses testes vieram de empresas como:
 
 ### Tecnologias utilizadas:
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+O projeto faz uso dos seguintes componentes:
 
 -  [Node.js](https://nodejs.org/en/)
 -  [Jest](https://jestjs.io/pt-BR/)
+-  [Eslint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
 
 <br>
 
 ### Como criar um projeto do zero:
 
--  ### Pré-requisitos
+-  ### Pré-requisitos Necessários:
 
-   -  É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-   -  Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+   -  Instalar o **[Node.js](https://nodejs.org/en/)** instalado na máquina;
+   -  Instalar um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+   -  Instalar o **[Visual Studio Code](https://code.visualstudio.com/)**
+   -  Adicionar as extenções do **[Eslint](https://eslint.org/)** e **[Prettier](https://prettier.io/)** ao seu VSCode!
 
 -  ### Preparação do ambiente
 
@@ -41,8 +45,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
   $ git init
   $ npm install node
   $ npm install --save-dev jest
-  $ npm install sqlite3
-  $ npm install bluebird
+  $ npx eslint --init
 ```
 
 Modifique o arquivo package.json para adicionar o script de criação de documentação:
@@ -72,17 +75,12 @@ $ npm test
 3. Executando apenas um teste:
 
 ```sh
-$ npm test __tests__/nomeDoTeste.js
+$ npm test nomeDoTeste.js
 ```
-
-4. Mudando os testes:
- <div>
-	Caso queira criar novos testes basta incluir na pasta "__tests___" um novo arquivo, exemplo: testenovo.test.js, e criar um novo teste para uma ou mais questões desejadas, ou você pode editar um teste já existente.
-</div>
 
 <br>
 
-### License:
+### Licença:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
