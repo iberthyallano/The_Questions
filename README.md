@@ -11,25 +11,30 @@ Obs:
 Recomendo que tentem resolver as [questões](./src/) antes de olharem suas resoluções.
 
 Esses testes vieram de empresas como:
-- [BTG Pactual](https://www.btgpactual.com/)
-- [Capgemini](https://www.capgemini.com/br-pt/)
-- [Justa](https://justa.com.vc/)
-- [Radix Engenharia e Software](https://www.radixeng.com.br/)
+
+-  [BTG Pactual](https://www.btgpactual.com/)
+-  [Capgemini](https://www.capgemini.com/br-pt/)
+-  [Justa](https://justa.com.vc/)
+-  [Radix Engenharia e Software](https://www.radixeng.com.br/)
 
 ### Tecnologias utilizadas:
+
 O projeto foi desenvolvido com as seguintes tecnologias:
-- [Node.js](https://nodejs.org/en/)
-- [Jest](https://jestjs.io/pt-BR/)
+
+-  [Node.js](https://nodejs.org/en/)
+-  [Jest](https://jestjs.io/pt-BR/)
 
 <br>
 
 ### Como criar um projeto do zero:
-- ### Pré-requisitos
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+-  ### Pré-requisitos
 
-- ### Preparação do ambiente
+   -  É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+   -  Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+-  ### Preparação do ambiente
+
 ```sh
   $ npx gitignore node
   $ npm init -y
@@ -41,6 +46,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ```
 
 Modifique o arquivo package.json para adicionar o script de criação de documentação:
+
 ```
 	"scripts": {
 		"test": "jest",
@@ -62,6 +68,7 @@ Modifique o arquivo package.json para adicionar o script de criação de documen
 ```sh
 $ npm test
 ```
+
 3. Executando apenas um teste:
 
 ```sh
@@ -71,10 +78,9 @@ $ npm test __tests__/nomeDoTeste.js
 4. Mudando os testes:
  <div>
 	Caso queira criar novos testes basta incluir na pasta "__tests___" um novo arquivo, exemplo: testenovo.test.js, e criar um novo teste para uma ou mais questões desejadas, ou você pode editar um teste já existente.
-</div> 
+</div>
 
 <br>
-
 
 ### License:
 
@@ -83,6 +89,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 <br>
 
 ---
+
 <h4 align="center">
     Feito por <a href="https://www.linkedin.com/in/iberthy-allano/" target="_blank">Iberthy Allano</a> & <a  href="https://www.linkedin.com/in/manoelvoliveira/" target="_blank">Manoel Oliveira</a>.
 </h4>

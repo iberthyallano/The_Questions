@@ -2,18 +2,21 @@
 
 Crie uma função que receba uma palavra qualquer e encontre sua maior substring alfabética existente.
 
-**********
-EXEMPLO:
-**********
+---
 
-Entrada: 
-- banana
+EXEMPLO:
+
+---
+
+Entrada:
+
+-  banana
 
 Saída:
-- nana
 
+-  nana
 
-**********
+---
 
 ENTRADA: A entrada será uma palavra qualquer.
 

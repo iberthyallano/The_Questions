@@ -1,14 +1,14 @@
-const imparOuParMatematico = require('../src/scripts/ImparOuParMatematico');
+const imparOuParMatematico = require("../src/scripts/ImparOuParMatematico");
 
 test("Teste Exemplo", () => {
-    expect(imparOuParMatematico(3)).toBe(`Impar`);
-    expect(imparOuParMatematico(4)).toBe(`Par`);
+   expect(imparOuParMatematico(3)).toBe(`Impar`);
+   expect(imparOuParMatematico(4)).toBe(`Par`);
 });
 
 test("Teste Aleatorio 1", () => {
-    expect(imparOuParMatematico(25)).toBe(`Impar`);
+   expect(imparOuParMatematico(25)).toBe(`Impar`);
 });
 
 test("Teste Aleatorio 2", () => {
-    expect(imparOuParMatematico(98)).toBe(`Par`);
+   expect(imparOuParMatematico(98)).toBe(`Par`);
 });
